@@ -1,5 +1,7 @@
 package hello.hellospring.repository;
 import hello.hellospring.domain.Member;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
